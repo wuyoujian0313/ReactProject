@@ -28,7 +28,13 @@ project.xcworkspace
 .gradle
 local.properties
 
+
 # node.js
 #
 node_modules/
 npm-debug.log
+
+MyDerivedData
+
+
+
