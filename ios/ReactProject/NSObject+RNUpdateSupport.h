@@ -13,12 +13,8 @@ typedef void(^CompletionBlock)(BOOL result);
 
 @interface NSObject (RNUpdateSupport)
 
-- (NSURL *)URLForJSInDocumentsDirectory;
 - (BOOL)copyMainBundleFileToDocumentsDirectory;
-
 - (BOOL)hasJSInDocumentsDirectory;
-
-- (BOOL)resetJSBundlePath;
 
 - (RCTRootView *)getRCRootViewWithModuleName:(NSString *)moduleName
                                launchOptions:(NSDictionary *)launchOptions;
